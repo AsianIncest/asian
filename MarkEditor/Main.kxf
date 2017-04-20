@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<object type="TAForm" name="Main">
+	<properties>
+		<property name="Left" vt="Int16">436</property>
+		<property name="Top" vt="Int16">227</property>
+		<property name="Width" vt="Int16">1197</property>
+		<property name="Height" vt="Int16">759</property>
+		<property name="Caption" vt="String">MarkEditor @Asian_In4est</property>
+		<property name="Color" vt="Ident">clBtnFace</property>
+		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+		<property name="Font.Color" vt="Ident">clWindowText</property>
+		<property name="Font.Height" vt="Int8">-11</property>
+		<property name="Font.Name" vt="String">MS Sans Serif</property>
+		<property name="Font.Style" vt="Set"/>
+		<property name="Menu" vt="Ident">Menu1</property>
+		<property name="OldCreateOrder" vt="False">False</property>
+		<property name="Visible" vt="True">True</property>
+		<property name="Style" vt="Int32">-1798701056</property>
+		<property name="ExStyle" vt="Int16">256</property>
+		<property name="Version" vt="String">1.04</property>
+		<property name="Description" vt="String">A standard Windows Form.</property>
+		<property name="FormOptOnEvent" vt="False">False</property>
+		<property name="FormOptExpVars" vt="False">False</property>
+		<property name="FormOptPopulate" vt="False">False</property>
+		<property name="FormOptVarsForSet" vt="False">False</property>
+		<property name="FormOptIndentChar" vt="Int8">0</property>
+		<property name="FormOptIndentCount" vt="Int8">1</property>
+		<property name="FormOptIndentInit" vt="Int8">0</property>
+		<property name="FormOptVarScope" vt="Int8">0</property>
+		<property name="Resizing" vt="Set"/>
+		<property name="PixelsPerInch" vt="Int8">96</property>
+		<property name="TextHeight" vt="Int8">13</property>
+	</properties>
+	<components>
+		<object type="TAMenu" name="Menu1">
+			<properties>
+				<property name="Left" vt="Int16">496</property>
+				<property name="Top" vt="Int8">0</property>
+				<property name="Width" vt="Int8">28</property>
+				<property name="Height" vt="Int8">28</property>
+				<property name="Associate" vt="Ident">Owner</property>
+				<property name="WrappedName" vt="String">MainMenu1</property>
+				<property name="AutoHotkeys" vt="Ident">maManual</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAList" name="List1">
+			<properties>
+				<property name="Left" vt="Int8">0</property>
+				<property name="Top" vt="Int8">0</property>
+				<property name="Width" vt="Int16">497</property>
+				<property name="Height" vt="Int16">695</property>
+				<property name="ItemHeight" vt="Int8">13</property>
+				<property name="Items.Strings" vt="List">
+					<list>
+						<li vt="String">aaaaaaaaa</li>
+						<li vt="String">bbbbbbbbb</li>
+						<li vt="String">ccccccccccc</li>
+					</list>
+				</property>
+				<property name="TabOrder" vt="Int8">0</property>
+				<property name="OnClick" vt="String">List1Click</property>
+				<property name="CtrlStyle" vt="Int32">1352859651</property>
+				<property name="CtrlExStyle" vt="Int16">512</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAList" name="List2">
+			<properties>
+				<property name="Left" vt="Int16">682</property>
+				<property name="Top" vt="Int8">1</property>
+				<property name="Width" vt="Int16">497</property>
+				<property name="Height" vt="Int16">695</property>
+				<property name="ItemHeight" vt="Int8">13</property>
+				<property name="TabOrder" vt="Int8">1</property>
+				<property name="CtrlStyle" vt="Int32">1352859651</property>
+				<property name="CtrlExStyle" vt="Int16">512</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="bLeftOne">
+			<properties>
+				<property name="Left" vt="Int16">520</property>
+				<property name="Top" vt="Int8">32</property>
+				<property name="Width" vt="Int16">147</property>
+				<property name="Height" vt="Int8">89</property>
+				<property name="Caption" vt="UTF8String">&lt;&lt; 1 ТУДА</property>
+				<property name="TabOrder" vt="Int8">2</property>
+				<property name="OnClick" vt="String">bLeftOneClick</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="bLeftAll">
+			<properties>
+				<property name="Left" vt="Int16">520</property>
+				<property name="Top" vt="Int16">217</property>
+				<property name="Width" vt="Int16">147</property>
+				<property name="Height" vt="Int8">89</property>
+				<property name="Caption" vt="UTF8String">&lt;&lt;&lt;&lt; ВСЕ ТУДА</property>
+				<property name="TabOrder" vt="Int8">3</property>
+				<property name="OnClick" vt="String">bLeftAllClick</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="bRightOne">
+			<properties>
+				<property name="Left" vt="Int16">520</property>
+				<property name="Top" vt="Int16">401</property>
+				<property name="Width" vt="Int16">147</property>
+				<property name="Height" vt="Int8">89</property>
+				<property name="Caption" vt="UTF8String">1 ТУДА &gt;&gt;</property>
+				<property name="TabOrder" vt="Int8">4</property>
+				<property name="OnClick" vt="String">bRightOneClick</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="bRightAll">
+			<properties>
+				<property name="Left" vt="Int16">520</property>
+				<property name="Top" vt="Int16">586</property>
+				<property name="Width" vt="Int16">147</property>
+				<property name="Height" vt="Int8">89</property>
+				<property name="Caption" vt="UTF8String">ВСЕ ТУДА &gt;&gt;&gt;&gt;</property>
+				<property name="TabOrder" vt="Int8">5</property>
+				<property name="OnClick" vt="String">bRightAllClick</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TMainMenu" name="MainMenu1">
+			<properties/>
+			<components>
+				<object type="TAMenuItem" name="MenuItem1">
+					<properties>
+						<property name="Caption" vt="WString">Файл</property>
+					</properties>
+					<components>
+						<object type="TAMenuItem" name="mOpen">
+							<properties>
+								<property name="Caption" vt="WString">Открыть</property>
+								<property name="OnClick" vt="String">mOpenClick</property>
+								<property name="HotKey" vt="Int16">16463</property>
+							</properties>
+							<components/>
+						</object>
+						<object type="TAMenuItem" name="mSave">
+							<properties>
+								<property name="Caption" vt="WString">Сохранить</property>
+								<property name="Enabled" vt="False">False</property>
+								<property name="GroupIndex" vt="Int8">1</property>
+								<property name="OnClick" vt="String">mSaveClick</property>
+								<property name="HotKey" vt="Int16">16467</property>
+							</properties>
+							<components/>
+						</object>
+						<object type="TAMenuItem" name="mClose">
+							<properties>
+								<property name="Caption" vt="WString">Закрыть</property>
+								<property name="Enabled" vt="False">False</property>
+								<property name="GroupIndex" vt="Int8">1</property>
+								<property name="OnClick" vt="String">mCloseClick</property>
+								<property name="HotKey" vt="Int16">16471</property>
+							</properties>
+							<components/>
+						</object>
+						<object type="TAMenuItem" name="border">
+							<properties>
+								<property name="GroupIndex" vt="Int8">1</property>
+							</properties>
+							<components/>
+						</object>
+						<object type="TAMenuItem" name="mQuit">
+							<properties>
+								<property name="Caption" vt="WString">Выход</property>
+								<property name="GroupIndex" vt="Int8">1</property>
+								<property name="OnClick" vt="String">mQuitClick</property>
+								<property name="HotKey" vt="Int16">16465</property>
+							</properties>
+							<components/>
+						</object>
+					</components>
+				</object>
+				<object type="TAMenuItem" name="MenuItem7">
+					<properties>
+						<property name="Caption" vt="WString">Метки</property>
+					</properties>
+					<components>
+						<object type="TAMenuItem" name="MenuItem6">
+							<properties>
+								<property name="Caption" vt="UTF8String">Загрузить из файла</property>
+							</properties>
+							<components>
+								<object type="TAMenuItem" name="mLoadVox">
+									<properties>
+										<property name="Caption" vt="String">voxelMap</property>
+										<property name="OnClick" vt="String">mLoadVoxClick</property>
+									</properties>
+									<components/>
+								</object>
+								<object type="TAMenuItem" name="mLoadJour">
+									<properties>
+										<property name="Caption" vt="String">journeymap</property>
+										<property name="OnClick" vt="String">mLoadJourClick</property>
+									</properties>
+									<components/>
+								</object>
+							</components>
+						</object>
+						<object type="TAMenuItem" name="mSaveJour">
+							<properties>
+								<property name="Caption" vt="UTF8String">Сохранить в файл</property>
+								<property name="OnClick" vt="String">mSaveJourClick</property>
+							</properties>
+							<components>
+								<object type="TAMenuItem" name="mSaveVox">
+									<properties>
+										<property name="Caption" vt="String">voxelMap</property>
+										<property name="OnClick" vt="String">mSaveVoxClick</property>
+									</properties>
+									<components/>
+								</object>
+								<object type="TAMenuItem" name="MenuItem2">
+									<properties>
+										<property name="Caption" vt="String">journeymap</property>
+									</properties>
+									<components/>
+								</object>
+							</components>
+						</object>
+					</components>
+				</object>
+				<object type="TAMenuItem" name="MenuItem3">
+					<properties>
+						<property name="Caption" vt="WString">Хэш</property>
+					</properties>
+					<components>
+						<object type="TAMenuItem" name="mScanLog">
+							<properties>
+								<property name="Caption" vt="UTF8String">Сканить лог</property>
+								<property name="OnClick" vt="String">mScanLogClick</property>
+							</properties>
+							<components/>
+						</object>
+						<object type="TAMenuItem" name="mAddHash">
+							<properties>
+								<property name="Caption" vt="UTF8String">Добавить хэш</property>
+								<property name="OnClick" vt="String">mAddHashClick</property>
+							</properties>
+							<components/>
+						</object>
+						<object type="TAMenuItem" name="mCopyHash">
+							<properties>
+								<property name="Caption" vt="UTF8String">Копировать хэш в буфер</property>
+								<property name="OnClick" vt="String">mCopyHashClick</property>
+							</properties>
+							<components/>
+						</object>
+					</components>
+				</object>
+			</components>
+		</object>
+	</components>
+</object>
